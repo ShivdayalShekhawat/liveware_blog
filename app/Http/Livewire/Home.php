@@ -8,6 +8,6 @@ class Home extends Component
 {
     public function render()
     {
-        return view('home')->extends('welcome')->section('content');
+        return view('home')->extends('welcome')->section('content');  
     }
 }
